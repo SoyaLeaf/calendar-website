@@ -1,0 +1,100 @@
+.mdl-layout__header{
+  display: block !important;
+  position: fixed;
+  top:0;
+}
+
+#cover{
+  margin: 144px auto;
+}
+
+#icon{
+  display: block;
+  width: 168px;
+  height: 168px;
+  margin: 8px auto;
+}
+
+#title{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#buttons{
+  margin: 0 auto;
+  display: block;
+  width: 272px;
+  clear: both;
+}
+
+#buttons a{
+  float: left;
+  display: block;
+  padding: 4px;
+  margin: 4px;
+  width: 120px;
+  font-size: 1.2em
+}
+#slogan{
+  text-align: center;
+  margin: 20px;
+}
+
+#qr{
+  margin: 0 auto;
+  display: block;
+}
+
+.content{
+  margin: 8px;
+  padding: 8px;
+}
+
+.content p{
+  padding-top: 16px;
+  min-height: 100px;
+}
+
+#space{
+  height: 120px;
+  width: 100%;
+}
+#screenshot-parent{
+  position: relative;
+  min-height: 360px;
+  overflow: hidden;
+  margin-bottom: 200px;
+}
+
+#screenshot-parent hr{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+
+}
+#screenshot{
+  margin: 16px;
+  position: absolute;
+}
+#screenshot img{
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+ -moz-filter: grayscale(100%);
+ -ms-filter: grayscale(100%);
+ -o-filter: grayscale(100%);
+ filter: grayscale(100%);
+ filter: white;
+ opacity: 0.1;
+}
+
+#screenshot img:hover{
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+ -moz-filter: grayscale(0%);
+ -ms-filter: grayscale(0%);
+ -o-filter: grayscale(0%);
+ filter: grayscale(0%);
+ filter: gray;
+}

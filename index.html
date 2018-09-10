@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>单纯的就是个日历</title>
+  <meta name="description" content="一款简洁大方美丽的日历软件...">
+  <meta name="keywords" content="日历,日常工具,app,Android">
+  <meta name="author" content="叶枫">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/material-design-lite/1.3.0/material.deep_orange-red.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--no-drawer-button ">
+    <main class="mdl-layout__content" id="container">
+      <header class="mdl-layout__header ">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">单纯的就是个日历</span>
+          <div class="mdl-layout-spacer"></div>
+        </div>
+      </header>
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col " id="cover">
+          <img src="imgs/icon.png" alt="Icon" id="icon">
+          <div id="title" class="mdl-typography--display-1">做好一个日历该做的日历</div>
+          <div id="slogan">
+            Just do one thing，不带任何杂质。
+          </div>
+          <div id="buttons">
+            <a id="download" href="https://www.coolapk.com/apk/top.soyask.calendarii" target="_blank" class="mdl-color-text--white mdl-color--grey-900 mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+              下载 <i class="icon material-icons">file_download</i>
+            </a>
+            <a id="github" href="https://github.com/SoyaLeaf/CalendarII" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+              <svg height="20"  width="20"  class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1"aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+               源码
+            </a>
+          </div>
+          <!-- <img id="qr" src="imgs/qr.png"> -->
+        </div>
+        <!-- <div id="space"></div> -->
+        <div class="mdl-cell mdl-cell--12-col" id="screenshot-parent">
+          <div class="mdl-grid" id="screenshot">
+            <div class="mdl-cell mdl-cell--2-col">
+              <img src="imgs/1.png">
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+              <img src="imgs/2.png">
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+              <img src="imgs/3.png">
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+              <img src="imgs/4.png">
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+              <img src="imgs/5.png">
+            </div>
+            <div class="mdl-cell mdl-cell--2-col">
+              <img src="imgs/6.png">
+            </div>
+          </div>
+          <hr class="mdl-shadow--2dp">
+        </div>
+        <div class="mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+          <div class="content">
+            <div>
+              <i class="icon material-icons">code</i>
+            </div>
+            <p>你可以根据自己的喜好添加其他功能，构建只属于你的特殊版本。</p>
+            <hr>
+            <div class="mdl-typography--title">开放源代码</div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+          <div class="content">
+            <div>
+              <i class="icon material-icons">perm_device_information</i>
+            </div>
+            <p>
+              我们只需要联网权限--用来同步最新的节假日信息；读取和写入文件权限--用来读取图片来美化界面，以及完成信息的备份和恢复功能。
+            </p>
+            <hr>
+            <div class="mdl-typography--title">极少的权限</div>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+          <div class="content">
+            <div>
+              <i class="icon material-icons">layers</i>
+            </div>
+            <p>
+              由于开发者审美原因，只能承诺尽量靠近Material Design。同时，我们在努力保持简洁，并承诺不添加任何广告。
+            </p>
+            <hr>
+            <div class="mdl-typography--title">简洁的界面</div>
+          </div>
+        </div>
+      </div>
+      <div id="space"></div>
+      <footer class="mdl-mega-footer">
+        <div class="mdl-mega-footer__middle-section">
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">关于本站</h1>
+            <p class="mdl-mega-footer__link-list">
+              只是单纯的想要为第一个一直在更新的App建个官网...
+            </p>
+          </div>
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">其他作品</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="http://star.soyask.top" target="_blank">资源分享站</a></li>
+            </ul>
+          </div>
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">请联系我</h1>
+            <dl class="mdl-mega-footer__link-list">
+              <dt>E-Mail:</dt>
+              <dd><a href="mailto://leaf0x520@qq.com" target="_blank">leaf0x520@qq.com</a></dd>
+              <dt>Xmpp(Jid):</dt>
+              <dd><a href="javascript:" target="_blank">leaf0x520@404.city</a></dd>
+            </dl>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="https://cdn.bootcss.com/material-design-lite/1.3.0/material.min.js"></script>
+  <script>
+    (function() {
+      let cover = document.querySelector('#cover');
+      let minHeight = cover.clientHeight * 3 / 2;
+      let screenshot = document.querySelector('#screenshot');
+      let parent = document.querySelector('#screenshot-parent');
+      let main = document.querySelector('main');
+      const maxMarginBottom = 200;
+      parent.style.height = (screenshot.clientHeight + maxMarginBottom) + 'px'
+      main.onscroll = function(e) {
+        var top = (main.scrollTop > minHeight ? main.scrollTop - minHeight : 0) * 2 / 3;
+        screenshot.style.top = top + 'px';
+        parent.style.marginBottom = (maxMarginBottom > top ? maxMarginBottom - top : 0) + 'px';
+      }
+    })();
+  </script>
+</body>
+
+</html>
